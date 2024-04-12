@@ -15,6 +15,6 @@ from ..modules.buttons import *
 async def help(_, m):
     await m.reply_photo(
         START_IMG,
-        caption=f"{HELP}",
+        caption= f"{HELP}",
         reply_markup=InlineKeyboardMarkup(HELP_BACK),quote=True
     )
