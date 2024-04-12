@@ -1,14 +1,14 @@
 # -----------CREDITS -----------
-# telegram : @Mr_Sukkun
+# telegram : @naksh_vai
 # github : noob-mukesh
 from pyrogram import filters
 import asyncio
-from .. import Mukesh
+from .. import User
 from ..modules.buttons import *
 from Chatgpt.database import *
 from pyrogram.enums import ChatType, ParseMode
 
-@Mukesh.on_message(filters.command(["start", f"start@{Mukesh.username}"]))
+@user.on_message(filters.command(["start", f"start@{User.username}"]))
 async def start(_, m):
     accha = await m.reply_text(f"{g}")
     await asyncio.sleep(0.2)
