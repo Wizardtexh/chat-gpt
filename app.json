@@ -2,7 +2,7 @@
 {
   "name": "Chat-Gpt",
   "description": "A Telegram open-ai Chatgpt bot.",
-  "logo": "https://telegra.ph/file/60d157aa5ad8b30da4e34.jpg",
+  "logo": "",
   "keywords": [
     "telegram", "chatgpt",
     "python",
