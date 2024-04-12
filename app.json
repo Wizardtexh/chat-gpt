@@ -2,7 +2,7 @@
 {
   "name": "Chat-Gpt",
   "description": "A Telegram open-ai Chatgpt bot.",
-  "logo": "https://te.legra.ph/file/9fa2101b77407dbec7d31.jpg",
+  "logo": "https://telegra.ph/file/60d157aa5ad8b30da4e34.jpg",
   "keywords": [
     "telegram", "chatgpt",
     "python",
@@ -19,39 +19,41 @@
     }
   ],
   "env": {
-    "BOT_TOKEN": { "description": "telegram bot token here",
+    "BOT_TOKEN": { "description": "6656491555:AAFn5l0NeRvwWhoeWnz7NyloeMgz17WyUOc",
       "required": true
     },
     "OWNER_ID": {
-      "description": "Owner id OF TELEGRAM ",
+      "description": "7043794748 ",
       "required": true
     },
     "SUPPORT_GRP": {
-      "description": "Your Support Group without @",
+      "description": "https://t.me/BOTSFORUHH",
       "required": true
     },
     "STKR": {
-      "description": "Sticker for start", 
+      "description": "https://te.legra.ph/file/244ba55963b3e95073832.png", 
       "required": true
     },
     "START_IMG": {
-      "description": "Start Image For Bot.",
+      "description": "https://telegra.ph/file/60d157aa5ad8b30da4e34.jpg
+.",
       "required": true
     },
     "UPDATE_CHNL": {
-      "description": "Your Updates Channel without @",
+      "description": "https://t.me/BOTSFORUHH",
       "required": true
     },
-    "API_ID": { "description": "telegram api id here",
+    "API_ID": { "description": "22152362",
       "required": true
     },
     "API_HASH": {
-      "description": "telegram api hash here",
+      "description": "2df0bf931cc4a8516b43e61263e701b7",
       "required": true
     },
     "MONGO_DB_URI":{
-    "description":"enter mongo url here",
+    "description":"mongodb+srv://Bikash:Bikash@bikash.yl2nhcy.mongodb.net/?retryWrites=true&w=majority
+,
     "required":true
   }},
-  "repository": "https://github.com/noob-mukesh/Chatgpt-bot"
+  "repository": "https://github.com/Wizardtexh/Chatgpt-bot"
 }
